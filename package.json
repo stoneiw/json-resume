@@ -1,0 +1,53 @@
+{
+  "author": {
+    "email": "ishisan31@gmail.com",
+    "name": "stone_iw",
+    "url": "https://stoneiw.com"
+  },
+  "bugs": {
+    "url": "https://github.com/stoneiw/hugo-mod-json-resume/issues"
+  },
+  "comments": {
+    "dependencies": {
+      "simple-icons": "project"
+    },
+    "devDependencies": {
+      "husky": "project",
+      "lint-staged": "project",
+      "markdownlint-cli": "project",
+      "prettier": "project",
+      "prettier-plugin-go-template": "project"
+    }
+  },
+  "dependencies": {
+    "simple-icons": "^14.14.0"
+  },
+  "description": "This is a fork from schnerring. It just fixs the module URL & the author name.",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.5.2",
+    "markdownlint-cli": "^0.44.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "homepage": "https://github.com/stoneiw/hugo-mod-json-resume#readme",
+  "keywords": [
+    "hugo",
+    "json-resume"
+  ],
+  "license": "MIT",
+  "lint-staged": {
+    "*.md": "markdownlint --fix"
+  },
+  "name": "hugo-mod-json-resume",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stoneiw/hugo-mod-json-resume.git"
+  },
+  "scripts": {
+    "lint": "npm run lint:css && npm run lint:js && npm run lint:md",
+    "lint:md": "markdownlint --fix **/*.md",
+    "prepare": "husky"
+  },
+  "version": "1.0.0"
+}
