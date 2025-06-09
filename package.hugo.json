@@ -8,13 +8,13 @@
     "url": "https://stoneiw.com"
   },
   "license": "MIT",
-  "homepage": "https://github.com/stoneiw/hugo-mod-json-resume#readme",
+  "homepage": "https://github.com/stoneiw/json-resume#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stoneiw/hugo-mod-json-resume.git"
+    "url": "git+https://github.com/stoneiw/json-resume.git"
   },
   "bugs": {
-    "url": "https://github.com/stoneiw/hugo-mod-json-resume/issues"
+    "url": "https://github.com/stoneiw/json-resume/issues"
   },
   "keywords": ["hugo", "json-resume"],
   "scripts": {
