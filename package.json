@@ -22,7 +22,7 @@
   "dependencies": {
     "simple-icons": "^14.14.0"
   },
-  "description": "This is a fork from schnerring. It just fixs the module URL & the author name.",
+  "description": "",
   "devDependencies": {
     "husky": "^9.1.7",
     "lint-staged": "^15.5.2",

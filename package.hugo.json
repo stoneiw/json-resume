@@ -1,7 +1,7 @@
 {
   "name": "hugo-mod-json-resume",
   "version": "1.0.0",
-  "description": "This is a fork from schnerring. It just fixs the module URL & the author name.",
+  "description": "",
   "author": {
     "name": "stone_iw",
     "email": "ishisan31@gmail.com",
